@@ -1,0 +1,138 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f0ab24;
+}
+
+header {
+  background-color: #f8f9fa;
+  width: 100vw;
+  height: 5rem;
+  text-transform: uppercase;
+  padding: 1.9rem 4rem 6rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+/* header: menu */
+nav ul {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 2rem;
+  padding: 0rem 0.4rem;
+  list-style: none;
+  color: #0a0b0a;
+  border: transparent;
+}
+
+nav ul li a:hover {
+  background-color: #f0ab24;
+  color: #f8f9fa;
+}
+
+/* header: titulo y logo */
+.titulo_y_logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+h1 {
+  order: 2;
+  padding-left: 1rem;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #0a0b0a;
+}
+
+.smn_logo {
+  width: 5rem;
+}
+/* galeria de tarjetas */
+main {
+  padding-top: 10rem;
+}
+.galeria_de_tarjetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+/* tarjetas */
+
+.tarjeta {
+  width: 45rem;
+  border: solid 0.3rem;
+  border-radius: 2rem;
+  background-color: #f8f9fa;
+  margin: 3rem;
+  box-shadow: 3rem 2.7rem 1rem -1.7rem rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.zona_de_imagen {
+  align-self: center;
+}
+
+div i {
+  font-size: 10rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.zona_del_clima {
+  font-family: "Montserrat", sans-serif;
+  color: #f8f9fa;
+  background-color: #0a0b0a;
+  text-transform: capitalize;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ciudad {
+  display: flex;
+  flex-direction: column;
+}
+
+.temperatura {
+  font-size: 6rem;
+  padding-left: 2rem;
+}
+
+.ciudad h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 2rem;
+}
+.fecha {
+  background-color: #00e5e5;
+  font-size: 2rem;
+  padding: 2rem;
+  border-bottom-right-radius: 2rem;
+}
